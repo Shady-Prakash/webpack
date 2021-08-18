@@ -1,7 +1,7 @@
 import '../styles/index.scss';
 import Recipes from './Recipes';
-import mandela from '../images/mandela.png';
-import mandelaSvg from '../images/mandela.svg';
+import Whatever from './Whatever';
+
 
 const App = () => {
     return (
@@ -11,11 +11,11 @@ const App = () => {
                 <section>
                     <h1>Oh Hai, React</h1>
                 </section>
-                <img src={mandela} alt="madela" width="250"/>
-                <img src={mandelaSvg} alt="madela" width="250"/>
+                
             </main>
 
             <Recipes/>
+            <Whatever/>
         </>
     )
 }
